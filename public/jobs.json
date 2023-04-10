@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "./assets/Logo/netflix-4 1.png",
+    "title": "Software Engineer",
+    "company_name": "Netflix",
+    "type": "Remote",
+    "location": "San Francisco",
+    "duration": "Full-time",
+    "salary": "100K - 120K",
+    "description": "We are seeking a talented software engineer to join our team and help us develop cutting-edge software products. As a software engineer at Acme Corporation, you will have the opportunity to work on a variety of exciting projects and collaborate with a talented team of engineers. You will be responsible for designing, developing, and maintaining software products, and ensuring that they meet customer needs. The ideal candidate will have a passion for technology and a strong desire to learn and grow as a software engineer.",
+    "responsibilities": "Design, develop, and maintain software products. Collaborate with cross-functional teams to ensure software is delivered on time and meets customer needs.",
+    "educational_requirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "Minimum of 5 years experience in software engineering.",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "careers@netflix.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "./assets/Logo/google-1-1 1.png",
+    "title": "Data Analyst",
+    "company_name": "Google LLC",
+    "type": "Onsite",
+    "location": "New York City",
+    "duration": "Part-time",
+    "salary": "80K - $100K",
+    "description": "We are looking for a skilled data analyst to join our team and help us make data-driven decisions. As a data analyst at XYZ Inc., you will be responsible for collecting and analyzing data, preparing reports and visualizations, and providing insights to business stakeholders. You will have the opportunity to work on a variety of projects and collaborate with a talented team of data analysts. The ideal candidate will have a strong analytical mindset and a passion for using data to drive business outcomes.",
+    "responsibilities": "Collect and analyze data, prepare reports and visualizations, and provide insights to business stakeholders.",
+    "educational_requirements": "Bachelor's degree in statistics, mathematics, or related field.",
+    "experiences": "Minimum of 3 years experience in data analysis.",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "careers@google.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "./assets/Logo/netflix-4 1.png",
+    "title": "Web Developer",
+    "company_name": "Netflix",
+    "type": "Onsite",
+    "location": "Chicago",
+    "duration": "Part-time",
+    "salary": "70K - 90K",
+    "description": "We are seeking a talented web developer to join our team and help us build beautiful and functional websites. As a web developer at ABC Corp., you will have the opportunity to work on a variety of projects and collaborate with a talented team of designers and developers. You will be responsible for designing, developing, and maintaining websites, and ensuring that they meet customer needs. The ideal candidate will have a passion for web development and a strong desire to learn and grow as a web developer",
+    "responsibilities": "Design, develop, and maintain websites. Collaborate with cross-functional teams to ensure websites are delivered on time and meet customer needs.",
+    "educational_requirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "Minimum of 3 years experience in web development.",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "careers@netflix.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "./assets/Logo/google-1-1 1-1.png",
+    "title": "Product Manager",
+    "company_name": "Google LLC",
+    "type": "Remote",
+    "location": "Seattle",
+    "duration": "Full-time",
+    "salary": "90K - 110K",
+    "description": "We are looking for a talented product manager to join our team and help us develop and launch new products. As a product manager at PQR Ltd., you will have the opportunity to work on a variety of projects and collaborate with a talented team of product managers, designers, and developers. You will be responsible for defining product requirements, developing product roadmaps, and ensuring that products are delivered on time and meet customer needs. The ideal candidate will have a passion for product management and a strong desire to learn and grow as a product manager.",
+    "responsibilities": "Define product requirements, develop product roadmaps, and ensure products are delivered on time and meet customer needs.",
+    "educational_requirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "Minimum of 3 years experience in product management.",
+    "contact_information": {
+      "phone": "555-3456",
+      "email": "careers@google.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "./assets/Logo/tesla-9 1.png",
+    "title": "UX Designer",
+    "company_name": "Tesla",
+    "type": "Remote",
+    "location": "Boston",
+    "duration": "Part-time",
+    "salary": "80K - 100K",
+    "description": "We are looking for a talented UX designer to join our team and help us create beautiful and functional user experiences. As a UX designer at UVW Inc., you will have the opportunity to work on a variety of projects and collaborate with a talented team of designers and developers. You will be responsible for designing and developing user interfaces, and ensuring that they meet customer needs. The ideal candidate will have a passion for UX design and a strong desire to learn and grow as a UX designer.",
+    "responsibilities": "Design and develop user interfaces. Collaborate with cross-functional teams to ensure user interfaces are delivered on time and meet customer needs.",
+    "educational_requirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "Minimum of 3 years experience in UX design.",
+    "contact_information": {
+      "phone": "555-7890",
+      "email": "careers@tesla.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "./assets/Logo/google-1-1 1.png",
+    "title": "DevOps Engineer",
+    "company_name": "Google LLC",
+    "type": "Onsite",
+    "location": "Sylhet, Bangladesh",
+    "duration": "Full-time",
+    "salary": "100K - 120K",
+    "description": "We are looking for a talented DevOps engineer to join our team and help us build and maintain our infrastructure. As a DevOps engineer at LMN Corp., you will have the opportunity to work on a variety of projects and collaborate with a talented team of engineers. You will be responsible for designing, building, and maintaining our infrastructure, and ensuring that it meets customer needs. The ideal candidate will have a passion for DevOps and a strong desire to learn and grow as a DevOps engineer.",
+    "responsibilities": "Design, build, and maintain infrastructure. Collaborate with cross-functional teams to ensure infrastructure is delivered on time and meets customer needs.",
+    "educational_requirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "Minimum of 3 years experience in DevOps.",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "career@gmail.com"
+    }
+  }
+]

@@ -14,6 +14,7 @@ function App() {
       
     </div>
     <JobCategory></JobCategory>
+    <Jobs></Jobs>
     </>
   );
 }
