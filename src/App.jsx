@@ -10,6 +10,7 @@ function App() {
     <>
     <div className="bg-gradient-to-r from-[#7E90FE]/[0.05] to-[#9873FF]/[0.05]">
       <Navbar></Navbar>
+      <Banner></Banner>
       
     </div>
     
