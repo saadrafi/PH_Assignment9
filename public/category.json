@@ -1,0 +1,23 @@
+[
+    {
+      "logo": "./assets/Icons/chip 1.png",
+      "name": "Technology",
+      "jobs_available": 200
+    },
+    {
+      "logo": "./assets/Icons/accounts 1.png",
+      "name": "Finance",
+      "jobs_available": 150
+    },
+    {
+      "logo": "./assets/Icons/business 1.png",
+      "name": "Marketing",
+      "jobs_available": 100
+    },
+    {
+      "logo": "./assets/Icons/social-media 1.png",
+      "name": "Media",
+      "jobs_available": 500
+    }
+  ]
+

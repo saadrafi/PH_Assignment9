@@ -13,7 +13,7 @@ function App() {
       <Banner></Banner>
       
     </div>
-    
+    <JobCategory></JobCategory>
     </>
   );
 }
