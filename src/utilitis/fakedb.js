@@ -1,28 +1,37 @@
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+const notify = () =>
+  toast.error("You have already applied for this job!", {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+  });
 const addToDb = (rec) => {
   let jobsData = getJobsData();
 
-    if (jobsData.length>0) {
-    
-        const exist = jobsData.find(job=> job.id==rec.id);
-        if(exist)
-        {
-            alert("Already exist");
-        }
-        else{
-            let newData = {};
-            newData["id"] = rec.id;
-            newData["title"]=rec.title;
-            jobsData = [...jobsData,newData]
-        }
+  if (jobsData.length > 0) {
+    const exist = jobsData.find((job) => job.id == rec.id);
+    if (exist) {
+      notify();
     } else {
-        let newData = {};
-        newData["id"] = rec.id;
-        newData["title"] = rec.title;
-        newData["company"] = rec.company_name;
-        jobsData = [...jobsData,newData]
+      let newData = {};
+      newData["id"] = rec.id;
+      newData["title"] = rec.title;
+      jobsData = [...jobsData, newData];
     }
-    localStorage.setItem("applied-jobs", JSON.stringify(jobsData));
-
+  } else {
+    let newData = {};
+    newData["id"] = rec.id;
+    newData["title"] = rec.title;
+    newData["company"] = rec.company_name;
+    jobsData = [...jobsData, newData];
+  }
+  localStorage.setItem("applied-jobs", JSON.stringify(jobsData));
 };
 
 const removeFromDb = (id) => {
