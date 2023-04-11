@@ -8,20 +8,20 @@ const AppliedJobs = () => {
 
   const [data,setData] = useState(savedData);
 
-    // const filterData = (e) => {
-    //     const value = e.target.value;
-    //     if(value === "onsite"){
-    //         const filteredData = savedData.filter(job => job.type === "Onsite");
-    //         setData(filteredData);
-    //     }
-    //     else if(value === "remote"){
-    //         const filteredData = savedData.filter(job => job.type === "Remote");
-    //         setData(filteredData);
-    //     }
-    //     else{
-    //         setData(savedData);
-    //     }
-    // }
+    const filterData = (e) => {
+        const value = e.target.value;
+        if(value === "onsite"){
+            const filteredData = savedData.filter(job => job.type === "Onsite");
+            setData(filteredData);
+        }
+        else if(value === "remote"){
+            const filteredData = savedData.filter(job => job.type === "Remote");
+            setData(filteredData);
+        }
+        else{
+            setData(savedData);
+        }
+    }
 
   return (
     <div>
