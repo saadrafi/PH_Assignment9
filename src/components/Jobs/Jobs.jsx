@@ -3,12 +3,22 @@ import SingleJob from "./SingleJob";
 
 const Jobs = () => {
   const [jobs, setJobs] = useState([]);
+  const [showAll, setShowAll] = useState(false);
+
+  const handleShowAll=()=>{
+    setShowAll(!showAll);
+  }
 
   useEffect(() => {
     fetch("jobs.json")
       .then((res) => res.json())
-      .then((data) => setJobs(data));
-  }, []);
+      .then((data) => {
+        if (showAll==false) {
+          data = data.slice(0, 4);
+        }
+        setJobs(data);
+      });
+  }, [showAll]);
 
   return (
     <div className=" mt-11 w-[85%] mx-auto">
@@ -23,6 +33,11 @@ const Jobs = () => {
         {jobs.map((job) => (
           <SingleJob key={job.id} job={job}></SingleJob>
         ))}
+      </div>
+      <div className="flex justify-center">
+        <button onClick={handleShowAll} className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none mt-6">
+          {showAll ? "Show Less" : "Show All"}
+        </button>
       </div>
     </div>
   );
