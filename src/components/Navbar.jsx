@@ -8,16 +8,49 @@ const Navbar = () => {
         <h1 className="font-bold font-['Manrope'] text-3xl">CareerHub</h1>
         <div className=" flex items-center space-x-4 text-base font-bold font-['Manrope']">
           <NavLink
-            to="#"
-            className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-transparent bg-clip-text"
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-transparent bg-clip-text"
+                : ""
+            }
           >
             Home
           </NavLink>
-          <NavLink to="#">Stat</NavLink>
-          <NavLink to="#">Applied Jobs</NavLink>
-          <NavLink to="#">Blog</NavLink>
+          <NavLink
+            to="/stat"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-transparent bg-clip-text"
+                : ""
+            }
+          >
+            Stat
+          </NavLink>
+          <NavLink
+            to="/applied-jobs"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-transparent bg-clip-text"
+                : ""
+            }
+          >
+            Applied Jobs
+          </NavLink>
+          <NavLink
+            to="/blog"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-transparent bg-clip-text"
+                : ""
+            }
+          >
+            Blog
+          </NavLink>
         </div>
-        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">Star Applying</button>
+        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">
+          Star Applying
+        </button>
       </nav>
     </div>
   );

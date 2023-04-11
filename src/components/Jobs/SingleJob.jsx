@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleJob = ({ job }) => {
-  const { company_logo, title, company_name, type, location, duration, salary } = job;
+  const { company_logo, title, company_name, type, location, duration, salary,id } = job;
   return (
     <div className=" border rounded-lg ">
       <div className="p-10">
@@ -34,9 +35,11 @@ const SingleJob = ({ job }) => {
           </div>
         </div>
 
-        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none mt-6">
-          View Details
-        </button>
+        <Link to={`/job/${id}`}>
+          <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none mt-6">
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );
