@@ -15,7 +15,7 @@ const JobCategory = () => {
         Explore thousands of job opportunities with all the information you need. Its your future
       </p>
 
-      <div className="flex justify-between gap-5 mt-4">
+      <div className="flex flex-col lg:flex-row justify-between gap-5 mt-4">
         {categories.map((category,index) => (
           <SingleCategory category={category} key={index}></SingleCategory>
         ))}

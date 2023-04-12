@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="lg:w-[85%] mx-auto">
-      <nav className="flex justify-between items-center py-4">
-        <h1 className="font-bold font-['Manrope'] text-3xl">CareerHub</h1>
+      <nav className="flex flex-col lg:flex-row justify-between items-center gap-2 lg:gap-0 py-4">
+        <h1 className="font-bold font-['Manrope'] text-3xl">LivingHub</h1>
         <div className=" flex items-center space-x-4 text-base font-bold font-['Manrope']">
           <NavLink
             to="/"

@@ -3,7 +3,7 @@ import BannerImg from "../assets/All Images/P3OLGJ1 copy 1.png";
 
 const Banner = () => {
   return (
-    <div className="w-[85%] mx-auto flex justify-between items-center gap-10">
+    <div className="w-full lg:w-[85%] mx-auto flex flex-col-reverse lg:flex-row  justify-between items-center gap-10">
       <div className="flex flex-col w-1/2">
         <span className="font-['Manrope'] font-extrabold text-[#1A1919] text-7xl">One Step </span>
         <span className="font-['Manrope'] font-extrabold text-[#1A1919] text-7xl">

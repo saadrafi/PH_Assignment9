@@ -29,13 +29,13 @@ const Jobs = () => {
         Explore thousands of job opportunities with all the information you need. Its your future
       </p>
 
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         {jobs.map((job) => (
           <SingleJob key={job.id} job={job}></SingleJob>
         ))}
       </div>
       <div className="flex justify-center">
-        <button onClick={handleShowAll} className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none mt-6">
+        <button onClick={handleShowAll} className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none mt-6 mb-10">
           {showAll ? "Show Less" : "Show All"}
         </button>
       </div>
