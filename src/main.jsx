@@ -10,11 +10,13 @@ import JobDetails from "./components/Jobs/JobDetails";
 import { dataLoad, findJob } from "./utilitis/dataLoader";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Stat/Statistics";
+import ErrorPage from "./components/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
