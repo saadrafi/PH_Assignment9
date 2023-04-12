@@ -11,6 +11,19 @@ const notify = () =>
     draggable: true,
     progress: undefined,
   });
+
+const notifySuccess = () =>
+  toast.success("You have successfully applied for this job!", {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+  });
+
 const addToDb = (rec) => {
   let jobsData = getJobsData();
 
@@ -23,6 +36,7 @@ const addToDb = (rec) => {
       newData["id"] = rec.id;
       newData["title"] = rec.title;
       jobsData = [...jobsData, newData];
+      notifySuccess();
     }
   } else {
     let newData = {};
@@ -30,6 +44,7 @@ const addToDb = (rec) => {
     newData["title"] = rec.title;
     newData["company"] = rec.company_name;
     jobsData = [...jobsData, newData];
+    notifySuccess();
   }
   localStorage.setItem("applied-jobs", JSON.stringify(jobsData));
 };

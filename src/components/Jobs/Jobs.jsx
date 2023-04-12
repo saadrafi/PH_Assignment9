@@ -21,7 +21,7 @@ const Jobs = () => {
   }, [showAll]);
 
   return (
-    <div className=" mt-11 w-[85%] mx-auto">
+    <div id="jobs" className=" mt-11 w-[85%] mx-auto">
       <h1 className="font-['Manrope'] font-extrabold text-5xl text-[#1A1919] text-center">
         Featured Jobs
       </h1>

@@ -48,9 +48,11 @@ const Navbar = () => {
             Blog
           </NavLink>
         </div>
-        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">
-          Star Applying
-        </button>
+        <a href="#jobs">
+          <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">
+            Star Applying
+          </button>
+        </a>
       </nav>
     </div>
   );

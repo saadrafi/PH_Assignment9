@@ -5,7 +5,6 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Layout/Home";
-import Page from "./components/Layout/Page";
 import JobDetails from "./components/Jobs/JobDetails";
 import { dataLoad, findJob } from "./utilitis/dataLoader";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
@@ -49,6 +48,7 @@ const router = createBrowserRouter([
         path: "blog",
         element: <Blog></Blog>,
       },
+      
     ],
   },
 ]);

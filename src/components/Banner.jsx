@@ -16,9 +16,11 @@ const Banner = () => {
           Explore thousands of job opportunities with all the <br /> information you need. Its your
           future. Come find it. Manage all your job application from start to finish.
         </p>
-        <button className="w-[160px] btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">
-          Get Started
-        </button>
+        <a href="#jobs">
+          <button className="w-[160px] btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none rounded-lg">
+            Get Started
+          </button>
+        </a>
       </div>
 
       <div className="w-1/2">
