@@ -9,6 +9,7 @@ import Page from "./components/Layout/Page";
 import JobDetails from "./components/Jobs/JobDetails";
 import { dataLoad, findJob } from "./utilitis/dataLoader";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
+import Statistics from "./components/Stat/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stat",
-        element: <Page>Stat</Page>,
+        element: <Statistics></Statistics>,
       },
       {
         path: "job/:jobId",

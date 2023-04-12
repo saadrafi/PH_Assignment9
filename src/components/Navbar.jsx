@@ -25,7 +25,7 @@ const Navbar = () => {
                 : ""
             }
           >
-            Stat
+            Marks
           </NavLink>
           <NavLink
             to="/applied-jobs"
