@@ -11,12 +11,13 @@ import { dataLoad, findJob } from "./utilitis/dataLoader";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Stat/Statistics";
 import ErrorPage from "./components/ErrorPage";
+import Blog from "./components/BlogPage/Blog.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -34,16 +35,20 @@ const router = createBrowserRouter([
           await fetch("/jobs.json")
             .then((res) => res.json())
             .then((data) => {
-              job =findJob(data, params.jobId);
+              job = findJob(data, params.jobId);
             });
-            return {job};
+          return { job };
         },
       },
       {
         path: "applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
-        loader:dataLoad
-      }
+        loader: dataLoad,
+      },
+      {
+        path: "blog",
+        element: <Blog></Blog>,
+      },
     ],
   },
 ]);
