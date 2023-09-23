@@ -14,3 +14,15 @@ http://ph9assignment.surge.sh/
 - featured jobs
 - Responsive
 - Charts
+
+## Technologies Used
+- ReactJS
+- React Router
+- React Hooks
+- ReCharts
+- HTML
+- CSS
+- TailwindCSS
+- JavaScript ES6+
+- Local Storage
+- Surge
